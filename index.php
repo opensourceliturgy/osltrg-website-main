@@ -1,4 +1,4 @@
-<?php require lcrs/main.php ?>
+<?php require "lcrs/main.php" ?>
 <html><head>
 <title>Coming Soon: Open Source Liturgy</title>
 </head><body>
