@@ -21,11 +21,41 @@ are downloaded installed, all under their canonical directory-names:
 One of the things that the arrays defined in "lcrs/main.php" will do
 is to identify the location of this directory.
 
+As new variables will may required in the future,
+please check the file "var-check.php" on this site to make sure
+that "lcrs/main.php" is up-to-date in what it
+needs to define - and if it fails in any of
+these tests, check the description here to
+make sure you fill the new variables with
+the correct values.
+Check that file through the web-interface,
+so that the web-server will run it as a PHP
+script rather than just render it literally
+to the browser - because really, that's the
+only way that that file can do it's job.
+
+Oh - and we will try to add tests for
+new variables long enough before they
+are actually needed so as to avoid throwing
+you off --- but it is still important that
+you run this check frequently, because we
+can only wait so long.
+And furthermore, for these tests to work
+(and for that matter, for the software to
+continue working) you need
+to keep both the files of this web-site
+as well as all tools that this web-site uses
+up-to-date.
+
 ## Associative arrays to set up in lcrs/main.php
 It should be noted that if any value in any of these arrays
 points to a directory, it must _not_ include the trailing
 forward-slash. For example, instead of listing a directory as
 "/usr/foo/bar/", you should instead list it as "/usr/foo/bar".
+Do not use "http://foo.bar/", but instead, use "http://foo.bar".
+And do not use "http://foo.bar/junk/items/", but instead,
+use "http://foo.bar/junk/items".
+Well -- I suppose you get the gist.
 
 ### site_spc
 This array is for values that are not to be directly used
@@ -38,3 +68,14 @@ values that they set which will indeed be used by
 the liturgy modules themselves.
 
 #### resdir
+This is the location on the local file-system that the modules
+of the Open Source Liturgy software itself are downloaded to -
+all of them under their canonical names (as specifically
+mentioned early in this file).
+
+### site_inf
+There is a slight chance that later
+versions of the Open Source Liturgy software itself might
+directly use values stored in this array.
+It may not be necessary, but it might be.
+
