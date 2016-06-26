@@ -201,6 +201,7 @@ function order_b_du ( $ord_a, $ord_b, $explain )
 order_a_a ( 'site_inf', "Information about the site." );
 order_b_du ( 'site_inf', 'url', "URL of the web-site mirror." );
 order_b_dl ( 'site_inf', 'srvloc', "Location of web-site on local machine's filesystem.");
+order_b_du ( 'site_inf', 'style',"Location on web of style-sheet module (the whole module - not just a particular file)." );
 
 order_a_a ( 'site_spc', "Further information on web-site resources." );
 order_b_dl ( 'site_spc', 'resdir', "A directory where needed components are saved in canonically named directories." );
