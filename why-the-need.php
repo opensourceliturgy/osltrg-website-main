@@ -53,6 +53,38 @@ need for libre liturgical resources
 ("libre" meaning "free" in the sense of actual freedom).
 </p>
 
+<p class = "more">
+In Jesus's ministry and teaching, one thing He
+made absolutely clear
+is the requirement that His followers stand up and
+defend marginalized members of society.
+Unfortunately, though, the main institutional
+Catholic Church all too often betrays
+this mission - not just by neglecting it,
+but at times, by actively opposing it.
+Many groups of people who are to varying
+degrees marginalized by society,
+people who should be able to find
+a safe haven in the Church,
+often find additional marginalization
+instead.
+</p>
+
+<p class = "more">
+The institutional Church's marginalization
+of groups of people whom the Church aught
+to be protecting is not limited to those
+on the LGBT spectrum.
+People suffering from celiac disease
+and other severe gluten intolerances
+are asked
+Even divorced and remarried Catholics are
+generally barred from receiving communion
+unless their previous marriages have been
+annulled - which is in itself
+a problematic requirement for many.
+</p>
+
 <?php
 //rmt_link_out('church_and_ministry');
 ?>
