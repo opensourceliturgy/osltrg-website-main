@@ -66,12 +66,22 @@ as some scripts within this web-site module might
 use values from within this array in order to formulate
 values that they set which will indeed be used by
 the liturgy modules themselves.
+This includes (but is not limited) values that are strictly for
+the site that have no technical bearing on the liturgy software
+itself.
 
 #### resdir
 This is the location on the local file-system that the modules
 of the Open Source Liturgy software itself are downloaded to -
 all of them under their canonical names (as specifically
 mentioned early in this file).
+
+#### remote_urls
+__Do not__ set this one up in "lcrs/main.php".
+If you do, it will in many cases be overwritten.
+It is listed here because this array is where
+it will go when/if the site sets it up.
+Simply, this is an array of URLs
 
 ### site_inf
 There is a slight chance that later

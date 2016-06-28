@@ -22,9 +22,18 @@ $canonical = realpath($site_spc['resdir'] . "/osltrg-saints-primary");
 $langpack = array(
   "en" => array(
     $site_spc['resdir'] . "/mass-missal-lng-en-reclaimist",
-    $site_spc['resdir'] . "/mass-missal-lng-en-rewordist"
+    $site_spc['resdir'] . "/mass-missal-lng-en-rewordist",
   )
 );
+if ( samestrg($_REQUEST['lang_pref'],'rewordist') == 0 )
+{
+  $langpack = array(
+    "en" => array(
+      $site_spc['resdir'] . "/mass-missal-lng-en-rewordist",
+      $site_spc['resdir'] . "/mass-missal-lng-en-reclaimist",
+    )
+  );
+}
 
 $preffile = array('pref/main.php');
 $headfile = array(

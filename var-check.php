@@ -119,7 +119,7 @@ function order_a_a ( $ord_a, $explain )
   if ( $resul ) { return $resul; }
   
   echo "\n<p><b>Missing array: &ensp; \$" . $ord_a . "</b> - ";
-  echo htmlspecialchars($explain);
+  echo $explain;
   echo "</p>\n";
   
   $GLOBALS['general_test_flag'] = $resul;
@@ -148,7 +148,7 @@ function order_b_dl ( $ord_a, $ord_b, $explain )
   if ( $resul ) { return $resul; }
   
   echo "\n<p><b>" . $dscrip . ": &ensp; \$" . $ord_a . "['" . $ord_b . "']</b> - ";
-  echo htmlspecialchars($explain);
+  echo $explain;
   echo $saymore;
   echo "</p>\n";
   
@@ -178,7 +178,7 @@ function order_b_du ( $ord_a, $ord_b, $explain )
   if ( $resul ) { return $resul; }
   
   echo "\n<p><b>" . $dscrip . ": &ensp; \$" . $ord_a . "['" . $ord_b . "']</b> - ";
-  echo htmlspecialchars($explain);
+  echo $explain;
   echo $saymore;
   echo "</p>\n";
   
@@ -202,6 +202,12 @@ order_a_a ( 'site_inf', "Information about the site." );
 order_b_du ( 'site_inf', 'url', "URL of the web-site mirror." );
 order_b_dl ( 'site_inf', 'srvloc', "Location of web-site on local machine's filesystem.");
 order_b_du ( 'site_inf', 'style',"Location on web of style-sheet module (the whole module - not just a particular file)." );
+
+order_b_dl ( 'site_inf', 'timezone', 'A timezone identifier - from among
+those listed among <a href = "http://php.net/manual/en/timezones.php"
+target = "_blank">the timezone identifiers officially recognized by PHP</a>.');
+
+
 
 order_a_a ( 'site_spc', "Further information on web-site resources." );
 order_b_dl ( 'site_spc', 'resdir', "A directory where needed components are saved in canonically named directories." );
