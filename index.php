@@ -32,6 +32,20 @@ through the fore-mentioned pedigree.
 </p>
 
 <p class = "more">
+Upon learning that the sacramental ministers in this small, Emergent movement
+may or may-not be ordained through the episcopal pedigree, some might
+ask, "Doesn't that make you Protestant rather than Catholic?".
+The short answer is -- no, it doesn't,
+and eventually there are plans to add explanations to this site
+as to why it doesn't.
+However, for the time being, there are other things that
+are receiving prior attention.
+Yet do not be concerned - as an explanation as to why we
+still consider ourselves to still be Catholic rather than Protestant
+is on the to-do list.
+</p>
+
+<p class = "more">
 This site is still under development.
 However, you can already <a href = "missal.php" target = "_blank">view the
 date-generic form of the missal</a>

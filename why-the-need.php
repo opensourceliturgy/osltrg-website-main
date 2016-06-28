@@ -102,7 +102,12 @@ to be protecting is not limited to those
 on the LGBT spectrum.
 People suffering from celiac disease
 and other severe gluten intolerances
-are asked
+are placed in a position where
+they have to risk their health to
+receive communion,
+all due to a stubborn insistence that
+"bread" be interpreted in a way that
+requires that it be made out of wheat.
 Even divorced and remarried Catholics are
 generally barred from receiving communion
 unless their previous marriages have been
