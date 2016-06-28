@@ -23,6 +23,12 @@ by the Vatican, nonetheless share many traits with them, including
 all seven sacraments,
 as well as Apostolic Succession by an understanding that implies
 that all of their clergy are properly ordained from the episcopal pedigree.
+Rather, this is from the perspective of a small trend on the fringes
+of even the Independent Catholic movement,
+fiercely inclusive of groups whom the institutional Church has failed
+(including but not limited to people in the LGBT spectrum)
+who's sacramental ministers may or may-not even be ordained
+through the fore-mentioned pedigree.
 </p>
 
 <p class = "more">
