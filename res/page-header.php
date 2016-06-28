@@ -25,8 +25,17 @@ require(realpath(__DIR__ . '/style.php'));
 
 - - -<hr/>
 
-<a href = "missal.php" target = "_blank">View the Date-Generic Liturgy of the Mass</a>
+<a href = "missal.php" target = "_blank">View the Date-Generic Liturgy of the Mass
+(This version uses more traditional language -- so seeing the
+inclusive message would require an understanding of the first-century
+context in which a lot of things were written.)</a>
 <hr/>
+
+Eventually we plan to have a version that will use
+language that makes the inclusive message clear
+to those who lack familiarity with the first-century
+context -- but that also is on the to-do list.
+
 
 </td><td>
 <div class = "head">
