@@ -10,7 +10,7 @@ require(realpath(__DIR__ . '/style.php'));
 </head><body>
 
 <div align = "center">
-<h2>Progressive Catholic Open Source Liturgy Project</h2>
+<h2>Refugant Catholic Open Source Liturgy Project</h2>
 </div>
 
 <table border = "1" cellpadding = "10">
@@ -21,6 +21,11 @@ require(realpath(__DIR__ . '/style.php'));
 <hr/>
 
 <a href = "<?php echo $site_inf['url']; ?>/why-the-need.php"><b>Why this project is needed</b></a>
+<hr/>
+
+- - -<hr/>
+
+<a href = "missal.php" target = "_blank">View the Date-Generic Liturgy of the Mass</a>
 <hr/>
 
 </td><td>
