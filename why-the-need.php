@@ -5,7 +5,10 @@
 <?php require (__DIR__ . "/res/style.php") ?>
 </head></body>
 
+<div class = "head">
+<a href = "index.php"><h2>Open Source Liturgy</h2></a>
 <h1>Why is it so important to have an Open Source liturgy?</h1>
+</div>
 
 <p class = "first">
 I have been asked on numerous occasions why go through
@@ -68,6 +71,28 @@ people who should be able to find
 a safe haven in the Church,
 often find additional marginalization
 instead.
+The rhetoric dished out by too many people
+in positions of ecclesiastical authority
+is emotionally abusive of LGBT people
+in the Church who as a result have to
+make the dire choice
+between submitting to even more emotional
+abuse from the pulpit or not receiving
+sacraments at all (unless the
+authorities make that decision for them by
+deciding to withhold communion
+by invoking <a href = "https://en.wikipedia.org/wiki/Canon_915" target = "_blank"
+>Canon 915</a>).
+Furthermore, the hierarchy of the institutional
+church has worked very hard on opposing
+so many efforts for society to extend to
+LGBT people basic rights and privileges that
+other people take for granted.
+As a matter of fact Bishop Robert Lynch
+had quite a point,
+after the recent tragedy in Orlando,
+when he <a href = "<?php rmt_link_out('bishop-lynch-on-orlando'); ?>" target = "_blank">pointed out how the Church's breeding of contempt for LGBT people
+is a factor behind anti-LGBT violence</a>.
 </p>
 
 <p class = "more">
@@ -83,6 +108,12 @@ generally barred from receiving communion
 unless their previous marriages have been
 annulled - which is in itself
 a problematic requirement for many.
+</p>
+
+<p class = "more">
+<i>(This document is still being written. Please come back
+at a later point in time to continue
+reading from here.)</i>
 </p>
 
 <?php
