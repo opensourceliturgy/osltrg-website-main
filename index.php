@@ -1,13 +1,7 @@
-<?php require "lcrs/main.php" ?>
-<?php require "res/siteurl.php" ?>
-<html><head>
-<?php require (__DIR__ . "/res/style.php") ?>
-<title>Coming Soon: Open Source Liturgy</title>
-</head><body>
-
-<div class = "head">
-<h1>Open Source Liturgy</h1>
-</div>
+<?php
+$title_of_page = "Welcome to this Open Source Liturgy Project";
+require "res/page-header.php";
+?>
 
 <p class = "first">
 Welcome to this Open Source liturgy project.
@@ -59,4 +53,6 @@ about why this project is important</a>.
 </form>
 -->
 
-</body></html>
+<?php
+require "res/page-footer.php";
+?>

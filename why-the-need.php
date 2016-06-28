@@ -1,14 +1,8 @@
-<?php require "lcrs/main.php" ?>
-<?php require "res/siteurl.php" ?>
-<html><head>
-<title>Why is Open Source Liturgy So Important?</title>
-<?php require (__DIR__ . "/res/style.php") ?>
-</head></body>
+<?php
+$title_of_page = "Why is Open Source Liturgy So Important?";
+require "res/page-header.php";
+?>
 
-<div class = "head">
-<a href = "index.php"><h2>Open Source Liturgy</h2></a>
-<h1>Why is it so important to have an Open Source liturgy?</h1>
-</div>
 
 <p class = "first">
 I have been asked on numerous occasions why go through
@@ -113,6 +107,24 @@ generally barred from receiving communion
 unless their previous marriages have been
 annulled - which is in itself
 a problematic requirement for many.
+Oh -- and I haven't gotten started on
+the hierarchy's persistent refusal to
+take full responsibility for sexual
+abuses of minors or to make prevention
+of them a higher priority than less-relevant
+criteria of whom they allow to serve as priests
+- such as the candidate's gender,
+natally-anatomical sex, sexual orientation,
+marital status, and other such nonsense.
+</p>
+
+<p class = "more">
+In some areas, Catholics who feel dejected
+for these or other reasons (as there are too many
+for me to list all of them here)
+have a safe place to go where they can
+receive sacraments free of any of these abuses.
+However, in other areas,
 </p>
 
 <p class = "more">
@@ -125,7 +137,8 @@ reading from here.)</i>
 //rmt_link_out('church_and_ministry');
 ?>
 
-</p>
 
 
-</body></html>
+<?php
+require "res/page-footer.php";
+?>
