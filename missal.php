@@ -25,7 +25,7 @@ $langpack = array(
     $site_spc['resdir'] . "/mass-missal-lng-en-rewordist",
   )
 );
-if ( samestrg($_REQUEST['lang_pref'],'rewordist') == 0 )
+if ( strcmp($_REQUEST['lang_pref'],'rewordist') == 0 )
 {
   $langpack = array(
     "en" => array(
