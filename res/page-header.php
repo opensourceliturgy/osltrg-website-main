@@ -35,6 +35,13 @@ Eventually we plan to have a version that will use
 language that makes the inclusive message clear
 to those who lack familiarity with the first-century
 context -- but that also is on the to-do list.
+<hr/>
+
+- - -<hr/>
+
+<a href = "https://github.com/opensourceliturgy" target = "_blank">See
+This Project on GitHub</a>
+<hr/>
 
 
 </td><td>
