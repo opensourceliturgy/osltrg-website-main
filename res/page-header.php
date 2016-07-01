@@ -31,10 +31,10 @@ inclusive message would require an understanding of the first-century
 context in which a lot of things were written.)</a>
 <hr/>
 
-Eventually we plan to have a version that will use
-language that makes the inclusive message clear
-to those who lack familiarity with the first-century
-context -- but that also is on the to-do list.
+<a href = "missal.php?lang_pref=rewordist" target = "_blank">View the Date-Generic Liturgy of the Mass
+(As time goes by,
+this version's language will gradually in time shift toward
+moden-context-clarity of inclusivity.)</a>
 <hr/>
 
 - - -<hr/>
