@@ -42,9 +42,11 @@ if ( strcmp($_REQUEST['lang_pref'],'rewordist') == 0 )
   );
 }
 
+
 $preffile = array('pref/main.php');
 $headfile = array(
   '/path/to/resource/osltrg-style/main.php',
+  (__DIR__ . '/res/style-pageframe.php'),
 );
 require($liturgidir . "/main.php");
 ?>

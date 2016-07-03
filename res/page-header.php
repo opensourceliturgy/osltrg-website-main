@@ -25,12 +25,16 @@ require(realpath(__DIR__ . '/style.php'));
 
 - - -<hr/>
 
-<a href = "missal.php" target = "_blank">Date-Generic Liturgy of the Mass - version #1
-(Maximum preservation of traditional language)</a>
+Date-Generic Liturgy of the Mass - version #1
+(Maximum preservation of traditional language)
+(<a href = "missal.php" target = "_blank">full&nbsp;page&nbsp;width</a>)
+(<a href = "missal.php?print_margin=yes" target = "_blank">with&nbsp;left&nbsp;margin</a>)
 <hr/>
 
-<a href = "missal.php?lang_pref=rewordist" target = "_blank">Date-Generic Liturgy of the Mass - version #2
-(Minimal changes for the sake of inclusivity)</a>
+Date-Generic Liturgy of the Mass - version #2
+(Minimal changes for the sake of inclusivity)
+(<a href = "missal.php?lang_pref=rewordist" target = "_blank">full&nbsp;page&nbsp;width</a>)
+(<a href = "missal.php?lang_pref=rewordist&print_margin=yes" target = "_blank">with&nbsp;left&nbsp;margin</a>)
 <hr/>
 
 - - -<hr/>
