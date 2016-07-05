@@ -23,6 +23,9 @@ require(realpath(__DIR__ . '/style.php'));
 <a href = "<?php echo $site_inf['url']; ?>/why-the-need.php"><b>Why this project is needed</b></a>
 <hr/>
 
+<a href = "<?php echo $site_inf['url']; ?>/how-cathoic.php"><b>How Refugant Catholicism is Catholic</b></a>
+<hr/>
+
 - - -<hr/>
 
 Date-Generic Liturgy of the Mass - version #1
@@ -44,7 +47,7 @@ This Project on GitHub</a>
 <hr/>
 
 
-</td><td>
+</td><td valign = "top">
 <div class = "head">
 <h1><?php echo htmlspecialchars($title_of_page); ?></h1>
 </div>
