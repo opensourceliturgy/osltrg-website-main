@@ -114,21 +114,18 @@ communities.
 Some of us might say otherwise - but I strongly suspect that such
 cases are examples of how "I don't care" is code for "I've given up on
 it ever happening".
+There is also the possibility that some say it (even if unconsciously so)
+out of the fear of being trapped in a situation where a restoration
+of Apostolic Succession is offered at an unacceptable price - a price
+that would undermine the integrity and/or safety of the community -
+and that they might gladly still accept a restoration of Apostolic
+Succession were it offered without such a heavy toll.
 However - as much as we would gladly have Apostolic Succession restored,
 we can not go back to claiming that there are no situations in which
 Sacraments celebrated without it are valid and Catholic -- because to
 do so would be to betray those who are in situations that we will
 have once ourselves been in - and ultimately would be a betrayal of Christ
 Himself.
-</p>
-
-<p class = "more">
-</p>
-
-<p class = "more">
-</p>
-
-<p class = "more">
 </p>
 
 
