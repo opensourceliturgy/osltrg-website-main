@@ -29,9 +29,9 @@ through the fore-mentioned pedigree.
 Upon learning that the sacramental ministers in this small, Emergent movement
 may or may-not be ordained through the episcopal pedigree, some might
 ask, "Doesn't that make you Protestant rather than Catholic?".
-The short answer is -- no, it doesn't,
-and eventually there are plans to add explanations to this site
-as to why it doesn't.
+The short answer is -- no, it doesn't.
+If you want a more in-depth answer,
+<a href = "how-cathoic.php">we now have a page on this site explaining it</a>.
 However, for the time being, there are other things that
 are receiving prior attention.
 Yet do not be concerned - as an explanation as to why we

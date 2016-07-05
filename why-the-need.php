@@ -173,13 +173,16 @@ that were closing due to the shortage of priests</a>,
 a far more concise explanation (that nobody has been
 up to the task of writing) would be needed in
 order to maximize the effect of an outreach
-that is forced to resort to such means.
-Even less available is a concise document
-explaining the Catholicity of this approach.
-(Even on this site, where having such a document
-is on the to-do-list, that task has to take a number
-as it is among several other things that also
-need to be done.)
+that is forced to resort to such means -
+and as airtight as their arguments are, there will
+be some people who will still lack the necessary
+confidence in this approach to be helped by it.
+As for the Catholicity of the approach
+<a href = "how-cathoic.php">we now have a
+document on this site explaining that</a> -
+but once again, not everyone will have enough
+confidence in that explanation either to be
+helped by this approach.
 </p>
 
 <p class = "more">
