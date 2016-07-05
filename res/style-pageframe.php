@@ -6,8 +6,11 @@ if ( strcmp($_REQUEST['print_margin'],'yes') == 0 ) {
   $marginlv = "15%";
 }
 
+$styledir = $GLOBALS['site_inf']['style'];
 
-?><style type = "text/css">
+?>
+<link rel="stylesheet" type="text/css" href="<?php echo $styledir; ?>/startpoint.css" />
+<style type = "text/css">
 div.pageframe {
 <?php
   if ( $marginly > 5 )
@@ -16,3 +19,10 @@ div.pageframe {
   }
 ?>}
 </style>
+<?php
+
+if ( strcmp($_REQUEST['debug_style'],'active') == 0 ) {
+  echo('<link rel="stylesheet" type="text/css" href="' . $styledir . '/debug.css" />' . "\n");
+}
+
+?>

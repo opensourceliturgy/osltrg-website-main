@@ -1,6 +1,8 @@
 <?php
 require "lcrs/main.php";
 
+$customize = false;
+
 $langpath = array (
   array (
     'lst' => array (
