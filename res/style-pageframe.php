@@ -9,6 +9,7 @@ if ( strcmp($_REQUEST['print_margin'],'yes') == 0 ) {
 $styledir = $GLOBALS['site_inf']['style'];
 
 ?>
+<link rel="stylesheet" type="text/css" href="<?php echo $styledir; ?>/colors-dflt.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo $styledir; ?>/startpoint.css" />
 <style type = "text/css">
 div.pageframe {

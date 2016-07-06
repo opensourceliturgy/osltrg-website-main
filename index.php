@@ -6,9 +6,9 @@ require "res/page-header.php";
 <p class = "first">
 Welcome to this Open Source liturgy project.
 Of course, this isn't the only Open Source liturgy project.
-<a href = "<?php rmt_link_out('methodist-project'); ?>" target = "_blank">There
-exists another Open Source liturgy project - but the other one is more Methodist
-in nature</a>.
+<a href = "other-open-source-liturgy.php">There
+exist other Open Source Liturgy projects
+for a number of spiritual traditions.</a>
 This one, however, is more from a Catholic perspective - though it is not
 from within any of the churches under Rome's control.
 It isn't even from within the mainstream of the so-called "Independent Catholic"

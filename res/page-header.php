@@ -5,8 +5,12 @@ require(realpath(__DIR__ . '/siteurl.php'));
 require(realpath(__DIR__ . '/style.php'));
 
 ?>
-<html><head>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:og="http://ogp.me/ns#"><head>
+<!-- Thank you StackOverflow: http://stackoverflow.com/questions/6943495/facebook-link-thumbnail -->
 <title><?php echo htmlspecialchars($title_of_page); ?></title>
+<link rel = "stylesheet" type = "text/css" href = "<?php echo $site_inf['style']; ?>/colors-dflt.css" />
+<link rel = "stylesheet" type = "text/css" href = "<?php echo $site_inf['style']; ?>/site-main.css" />
 </head><body>
 
 <div align = "center">
@@ -24,6 +28,9 @@ require(realpath(__DIR__ . '/style.php'));
 <hr/>
 
 <a href = "<?php echo $site_inf['url']; ?>/how-cathoic.php"><b>How Refugant Catholicism is Catholic</b></a>
+<hr/>
+
+<a href = "<?php echo $site_inf['url']; ?>/more.php"><b>more ...</b></a>
 <hr/>
 
 - - -<hr/>
