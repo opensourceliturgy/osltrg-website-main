@@ -17,6 +17,19 @@ function url_n_prefix ( $pfx, $val )
   return false;
 }
 
+function standard_tz ( $rg )
+{
+  if ( !is_string($rg->val) )
+  {
+    $rg->dscrip = "Wrong variable type";
+    $rg->more .= "\n<br/><br/>It can't be a timezone identifier if it is not even\n";
+    $rg->more .= "a string.\n";
+    return false;
+  }
+  
+  return true;
+}
+
 function standard_dl ( $rg )
 {
   if ( !is_string($rg->val) )
@@ -186,6 +199,36 @@ function order_b_du ( $ord_a, $ord_b, $explain )
   return $resul;
 }
 
+function order_b_tz ( $ord_a, $ord_b, $explain )
+{
+  $resul = true;
+  $local_ord = $GLOBALS[$ord_a];
+  
+  $dscrip = "Missing URL variable";
+  $saymore = '';
+  if ( $resul ) { $resul = is_array($local_ord); }
+  if ( $resul ) { $resul = array_key_exists($ord_b,$local_ord); }
+  $finaro = new StdClass;
+  if ( $resul ) {
+    $finaro->val = $local_ord[$ord_b];
+    $finaro->more = $saymore;
+    $finaro->dscp = $dscrip;
+    $resul = standard_tz($finaro);
+    $saymore = $finaro->more;
+    $dscrip = $finaro->dscp;
+  }
+  
+  if ( $resul ) { return $resul; }
+  
+  echo "\n<p><b>" . $dscrip . ": &ensp; \$" . $ord_a . "['" . $ord_b . "']</b> - ";
+  echo $explain;
+  echo $saymore;
+  echo "</p>\n";
+  
+  $GLOBALS['general_test_flag'] = $resul;
+  return $resul;
+}
+
 
 
 ?>
@@ -203,7 +246,7 @@ order_b_du ( 'site_inf', 'url', "URL of the web-site mirror." );
 order_b_dl ( 'site_inf', 'srvloc', "Location of web-site on local machine's filesystem.");
 order_b_du ( 'site_inf', 'style',"Location on web of style-sheet module (the whole module - not just a particular file)." );
 
-order_b_dl ( 'site_inf', 'timezone', 'A timezone identifier - from among
+order_b_tz ( 'site_inf', 'timezone', 'A timezone identifier - from among
 those listed among <a href = "http://php.net/manual/en/timezones.php"
 target = "_blank">the timezone identifiers officially recognized by PHP</a>.');
 
